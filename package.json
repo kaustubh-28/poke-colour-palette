@@ -1,0 +1,53 @@
+{
+  "name": "poke-colour-palette",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "author": "Kaustubh Srivastava <kaustubh282.s@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaustubh-28/poke-colour-palette.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaustubh-28/poke-colour-palette/issues"
+  },
+  "homepage": "https://github.com/kaustubh-28/poke-colour-palette#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "format": "prettier --write src"
+  },
+  "dependencies": {
+    "@radix-ui/react-tooltip": "^1.2.8",
+    "@radix-ui/themes": "^3.2.1",
+    "colorthief": "^2.6.0",
+    "firebase": "^11.10.0",
+    "framer-motion": "^12.23.0",
+    "lucide-react": "^0.562.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.3",
+    "react-syntax-highlighter": "^16.1.0",
+    "sass": "^1.91.0",
+    "tinycolor2": "^1.6.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "prettier": "^3.6.2",
+    "vite": "^6.3.5"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": false,
+    "trailingComma": "es5"
+  }
+}
